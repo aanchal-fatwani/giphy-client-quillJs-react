@@ -37,9 +37,32 @@ body {
   font-size: 20px;
 }
 
+.gifDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  top: 30%;
+  margin: 20px 50px;
+  justify-content: center;
+}
+
 .contentArea {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.nextBtn {
+  border-radius: 5px;
+  font-size: x-large;
+  margin: 10px;
+}
+
+.gifs {
+  height: 240px;
+  width: 240px;
+  margin: 20px;
+}
+
+.ht100 {
+  height: 100%;
+}
