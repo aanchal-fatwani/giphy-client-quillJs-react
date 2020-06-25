@@ -66,3 +66,16 @@ body {
 .ht100 {
   height: 100%;
 }
+
+.text-editor {
+  height: 90%;
+}
+
+.ql-gif{
+  font-weight: 700;
+  font-size: large;
+}
+
+.mt2{
+  margin-top: 2px;
+}
