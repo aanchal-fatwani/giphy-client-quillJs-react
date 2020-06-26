@@ -36,9 +36,10 @@ export default function Search(props) {
 
     }
   }, [keyword, offset]);
+
   return (
-     <div
-      className={"contentArea"}
+    <div
+      className={"contentArea blanket" + (searchResults.length ? "" : " ht100")}
     >
         <div className="search">
           <input
@@ -58,6 +59,7 @@ export default function Search(props) {
             {searchResults.map((u, index) => (
               <div
                 key={index}
+                onClick={() => props && Object.entries(props).length && props.data(u.images.fixed_height_small.url)}
               >
                 {u.images && (
                   <img src={u.images.fixed_height_small.url} className="gifs" />

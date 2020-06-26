@@ -63,8 +63,25 @@ body {
   margin: 20px;
 }
 
+.blanket {
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
 .ht100 {
   height: 100%;
+}
+
+.editorBg {
+  margin: 10px;
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+  width: 97%;
+  height: 95%;
 }
 
 .text-editor {
@@ -79,3 +96,4 @@ body {
 .mt2{
   margin-top: 2px;
 }
+
